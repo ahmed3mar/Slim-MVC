@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slim 3</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ url('css/app.min.css') }}">
+    </head>
+    <body>
+        <h1>Slim</h1>
+        <div>a microframework for PHP</div>
+
+        {% if name %}
+            <h2>Hello {{ name }}!</h2>
+        {% else %}
+            <p>Try <a href="http://www.slimframework.com">SlimFramework</a>
+        {% endif %}
+
+                <script src="{{ url('js/app.js') }}"></script>
+
+                <script id="__bs_script__">//<![CDATA[
+                    document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js?v=2.18.8'><\/script>".replace("HOST", location.hostname));
+                    //]]></script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/storage/files/
+/storage/framework/cache/
+/storage/framework/logs/
+.idea
+tests
+phpunit.xml
+.DS_Store
