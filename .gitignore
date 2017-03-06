@@ -4,6 +4,6 @@
 /storage/framework/cache/
 /storage/framework/logs/
 .idea
-/tests/
+tests
 phpunit.xml
 .DS_Store
