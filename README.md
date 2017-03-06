@@ -8,7 +8,7 @@ This mvc application was built for Composer. This makes setting up a new Slim Fr
 
 Run this command from the directory in which you want to install your new Slim Framework application.
 
-    php composer.phar create-project slim/slim-mvc [my-app-name]
+    php composer.phar create-project ahmed3mar/slim-mvc [my-app-name]
 
 Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
 
