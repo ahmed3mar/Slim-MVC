@@ -24,7 +24,4 @@ return [
         return $logger;
     },
 
-    'route' => function($type, $uri, $cb) {
-
-    }
 ];
