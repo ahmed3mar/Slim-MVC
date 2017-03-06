@@ -8,6 +8,11 @@ return [
         $basePath = rtrim(str_ireplace('index.php', '', $c['request']->getUri()->getBasePath()), '/');
         $view->addExtension(new Slim\Views\TwigExtension($c['router'], $basePath));
 
+        $functions = config('view.functions');
+        foreach ($functions as $function) {
+            $view->getEnvironment()->addFunction(new Twig_SimpleFunction($function, $function));
+        }
+
         return $view;
     },
 

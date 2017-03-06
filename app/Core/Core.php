@@ -21,7 +21,7 @@ if( sizeof($Dependencies) > 0 ) {
 }
 
 // Register middleware
-$middleware = require __DIR__ . '/../Middleware/Kernel.php';
+require __DIR__ . '/../Middleware/Kernel.php';
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 $capsule = new Capsule;
